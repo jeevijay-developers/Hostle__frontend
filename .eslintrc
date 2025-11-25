@@ -31,6 +31,7 @@
   },
   "parser": "@babel/eslint-parser",
   "parserOptions": {
+    "requireConfigFile": false,
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
       "impliedStrict": true,
@@ -68,7 +69,7 @@
       }
     ],
     "no-unused-vars": [
-      "warn",
+      "off",
       {
         "ignoreRestSiblings": false
       }

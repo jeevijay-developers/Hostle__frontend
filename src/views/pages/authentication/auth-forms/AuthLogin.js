@@ -173,7 +173,7 @@ const FirebaseLogin = ({ ...others }) => {
                   textAlign: 'center',
                   borderRadius: 1
                 }}
-                onClick={() => handleCredentialClick('sunrisehostel@gmail.com', '123456', setFieldValue, handleSubmit)}
+                onClick={() => handleCredentialClick('annutammahostel@gmail.com', '123456', setFieldValue, handleSubmit)}
               >
                 <Typography variant="h5">Login with Hostel Credentials</Typography>
               </Box>
